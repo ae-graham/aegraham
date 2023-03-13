@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alex Graham | Home</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="/css/overlay.css" />-->
+    <link rel="stylesheet" href="/css/style.css" />
+
+</head>
+
+<body class="main-container">
+    <!-- Here is our main header that is used across all the pages of our website -->
+    <header class="main-header">
+        <h1 class="logo">AleX<br>GRAHAM</h1>
+
+        <nav id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="main-nav"> <!--main-nav-->
+                <li><a href="#" class="selected">Home</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/experience.html">Experience</a></li>
+                <li><a href="/pages/work.html">Work</a></li>
+            </ul>
+        </nav> 
+        <span class="lines btn" onclick="openNav()">&#9776;</span>     
+    </header>
+
+    <div class="main-section">
+        <h1 id="hello">Hi! I'm Alex,<br>welcome to my page.</h1>
+        
+        <p>I'm a front-end developer based in beautiful sunny Sydney Australia.</p>
+
+        <p>I love building new websites and solving problems, but what I love the most is to travel non-stop. 
+            That's why I am so passionate about web development, it fits perfectly with my needs. 
+            Taking work with me all arround the world truly is a huge benefit. Stick around to learn more about me.
+        </p>
+        <div id="contact">
+            <h2 style="font-size: 2rem;">Contact</h2>
+            <p>If you have any questions, business inquiries or just wish to get in touch... <a href="mailto:ae.graham93@gmail.com?subject=Business%20Opportunity" class="btn">say hello!</a></p>
+            <p>You can also find me in my socials:</p>
+            <div>
+                <a href="https://www.linkedin.com/in/alexander-graham93/" target="_blank" class="btn" id="social"></a>
+                <a href="https://github.com/ae-graham" target="_blank" class="btn" id="social2"></a>
+            </div>
+        </div>  
+    </div> 
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+    <div class="main-footer">
+        <hr>
+        <footer>
+            <span>Everything was coded from zero by Alex Graham. All rights reversed.</span>
+        </footer>
+    </div>
+
+    <!--javascript for the overlay menu-->
+    <script src="/javascript/navbar.js"></script>
+
+</body>
+</html>
