@@ -1,1 +1,1 @@
-This project includes all the files used for the creation of my personal website. Feel free to use sections of it for your own projects, however please do not copy and paste the entire website and claime as your own. Thank you and I hope you like it!
+This project includes all the files used for the creation of my personal website. Feel free to use sections of it for your own projects, however please do not copy and paste the entire website and claim as your own. Thank you and I hope you like it!
