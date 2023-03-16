@@ -19,6 +19,18 @@ h1 {
     font-size: 2.5rem;
 }
 
+figure {
+    margin-bottom: 40px;
+}
+
+figure:last-child {
+    margin-bottom: auto;
+}
+
+figurecaption {
+    display: block;
+    margin-top: 20px;
+}
 
 /* ================================= 
   Base Layout Styles
@@ -113,6 +125,14 @@ h1 {
     border: 2px solid black;
     box-shadow: -2px 4px 6px rgba(0, 10, 30, 0.4);
     margin-bottom: 5vh;
+}
+
+.project {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border: 2px solid black;
+    box-shadow: -2px 4px 6px rgba(0, 10, 30, 0.4);
 }
 
 .jobs,
