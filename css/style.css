@@ -267,6 +267,26 @@ figurecaption {
         margin-right: 40px;
     }
 
+    .project_items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    
+    figure, figure:last-child {
+        margin: 0;
+    }
+
+    .project {
+        width: 80%;
+    }
+
+    figurecaption {
+        margin: 20px auto 0;
+    }
+
     .btn {
         width: 150px;
         text-align: center;
