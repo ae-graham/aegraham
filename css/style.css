@@ -133,6 +133,13 @@ figurecaption {
     padding: 0;
     border: 2px solid black;
     box-shadow: -2px 4px 6px rgba(0, 10, 30, 0.4);
+    filter: grayscale(100%);
+    transition: filter ease-in 0.5s;
+}
+
+.project:hover {
+    filter: grayscale(0%);
+    transition: filter ease-in 0.5s;
 }
 
 .jobs,
