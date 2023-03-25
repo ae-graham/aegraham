@@ -3,7 +3,12 @@ function openNav() {
 }
     
 function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
+    if (window.innerWidth < 769) {
+        document.getElementById("myNav").style.width = "0%";
+    } else {
+        document.getElementById("myNav").style.width = "auto";
+    }
+    
 } 
 
 window.addEventListener("resize", () => {
