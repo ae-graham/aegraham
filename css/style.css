@@ -55,10 +55,10 @@ figurecaption {
     border-bottom: 2px solid black;
 }
 
-#main-section-index,
-#main-section-about,
-#main-section-experience,
-#main-section-work {
+#index,
+#about,
+#experience,
+#work {
     width: 90%;
     text-align: center;
     display: flex;
@@ -216,9 +216,9 @@ figurecaption {
       transition: 0.3s;
     }
       
-   /* .overlay a:active, .overlay a:focus {
+    .overlay a:active, .overlay a:focus {
         color: #f1f1f1;
-    }*/
+    }
         
     .overlay .closebtn {
         position: absolute;
@@ -251,10 +251,10 @@ figurecaption {
     }*/
     
     .main-header,
-    #main-section-index,
-    #main-section-about,
-    #main-section-experience,
-    #main-section-work,
+    #index,
+    #about,
+    #experience,
+    #work,
     .main-footer {
         max-width: 1250px;
     }
@@ -270,10 +270,10 @@ figurecaption {
     }
 
 
-    #main-section-index,
-    #main-section-about,
-    #main-section-experience,
-    #main-section-work {
+    #index,
+    #about,
+    #experience,
+    #work {
         margin-top: 40px;
         /*justify-content: space-between;*/
         text-align: left;

@@ -31,16 +31,16 @@
         <nav id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!--the href is given a javascript code to run, hence 'javascript:' as it's given void(0) it basically does nothing, so we don't get a page reload.-->
             <ul class="main-nav"> <!--main-nav-->
-                <li><a href="#" onclick="show('main-section-index','main-section-about', 'main-section-experience', 'main-section-work'); closeNav();" class="selected">Home</a></li>
-                <li><a href="#" onclick="show('main-section-about','main-section-index', 'main-section-experience', 'main-section-work'); closeNav();" class="selected">About</a></li>
-                <li><a href="#" onclick="show('main-section-experience','main-section-index', 'main-section-about', 'main-section-work'); closeNav();" class="selected">Experience</a></li>
-                <li><a href="#" onclick="show('main-section-work','main-section-index', 'main-section-about', 'main-section-experience'); closeNav();" class="selected">Work</a></li>
+                <li><a href="javascript:void(0)" onclick="show('index','about', 'experience', 'work'); closeNav();" class="selected">Home</a></li>
+                <li><a href="javascript:void(0)" onclick="show('about','index', 'experience', 'work'); closeNav();" class="selected">About</a></li>
+                <li><a href="javascript:void(0)" onclick="show('experience','index', 'about', 'work'); closeNav();" class="selected">Experience</a></li>
+                <li><a href="javascript:void(0)" onclick="show('work','index', 'about', 'experience'); closeNav();" class="selected">Work</a></li>
             </ul>
         </nav> 
         <span class="lines btn" onclick="openNav()">&#9776;</span>     
     </header>
 
-    <div id="main-section-index">
+    <div id="index">
         <h1 id="hello">Hi! I'm Alex,<br>welcome to my page.</h1>
         
         <p>I'm a front-end developer based in beautiful sunny Sydney Australia.</p>
@@ -60,7 +60,7 @@
         </div>  
     </div> 
 
-    <div id="main-section-about" class="flex-start"> 
+    <div id="about" class="flex-start"> 
         <h1>About me</h1>
         <div class="sub-section">
             <p>
@@ -78,7 +78,7 @@
         </div>
     </div>
 
-    <div id="main-section-experience"> 
+    <div id="experience"> 
         <h1>Experience</h1>
 
         <div class="jobs">
@@ -119,7 +119,7 @@
         
     </div>
 
-    <div id="main-section-work" class="flex-start"> 
+    <div id="work" class="flex-start"> 
         <div>
             <h1 style="margin-bottom: 0;">Projects</h1>
             <p>(more coming soon.)</p>
