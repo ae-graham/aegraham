@@ -1,3 +1,7 @@
+document.getElementById('about').style.display='none';
+document.getElementById('experience').style.display='none';
+document.getElementById('work').style.display='none';
+
 const show = (shown, hidden1, hidden2, hidden3) => {
     document.getElementById(shown).style.display='block';
     document.getElementById(hidden1).style.display='none';
