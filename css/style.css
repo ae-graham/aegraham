@@ -92,7 +92,7 @@ figurecaption {
     display: inline-block;
     background-color: rgba(211, 211, 211, 0.6);
     padding: 10px 0;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 130px;
     border: 2px solid black;
     box-shadow: -2px 2px 2px rgba(0, 10, 30, 0.4);
@@ -274,14 +274,6 @@ figurecaption {
         text-align: left;
     }
 
-    .sub-section {
-        flex-direction: row;
-    }
-
-    .sub-section p {
-        margin-right: 40px;
-    }
-
     .project_items {
         display: flex;
         flex-direction: row;
@@ -372,5 +364,20 @@ figurecaption {
         box-shadow: -2px 2px 2px rgba(0, 10, 30, 0.4);
     }*/
 
+}
+
+@media (min-width: 1208px) {
+
+    .btn {
+        margin-top: 0;
+    }
+
+    .sub-section {
+        flex-direction: row;
+    }
+
+    .sub-section p {
+        margin-right: 40px;
+    }
 }
 
