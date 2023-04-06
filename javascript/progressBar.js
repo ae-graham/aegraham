@@ -1,6 +1,3 @@
-document.querySelector('.main-header').style.display='none';
-document.getElementById('index').style.display='none';
-document.querySelector('.main-footer').style.display='none';
 window.addEventListener("load", (event) => {
     const elem = document.getElementById("myBar");
     let width = 0;
@@ -19,7 +16,6 @@ window.addEventListener("load", (event) => {
             
             const keyStyle = document.createElement('style');
             document.getElementById('index').appendChild(keyStyle);
-            //const styleSheet = keyStyle.sheet;
             keyStyle.textContent=`#index {
                 animation: fade-in 1s;
             }
@@ -31,9 +27,6 @@ window.addEventListener("load", (event) => {
             document.querySelector('.main-footer').style.display='block';
             document.querySelector('.main-footer').style.animation='fade-in 1s';
 
-            //const keyStyle = document.createElement('style');
-            //document.getElementById('index').appendChild(keyStyle);
-            //const styleSheet = keyStyle.sheet;
             setTimeout(() => {
                 keyStyle.textContent=`
             #index {
